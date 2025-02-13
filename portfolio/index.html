@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Deepika's Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="container">
+    <!-- Sidebar Section -->
+    <div class="sidebar">
+      <img src="images/myphoto.jpg" alt="Your Photo" class="profile-pic">
+      <h2>Phoola Deepika</h2>
+      <p class="role">Student</p>
+      <div class="contact-info">
+        <p>Email: <a href="mailto:phooladeepika35@gmail.com">phooladeepika35@gmail.com</a></p>
+        <p>Phone: <a href="tel:+919676442585">+91 9676442585</a></p>
+        <p>Birthday: 20 October 2003</p>
+        <p>Location: Balapur, India</p>
+      </div>
+    </div>
+
+    <!-- Main Content Section -->
+    <div class="main-content">
+      <!-- Navigation Bar -->
+      <nav id="navbar">
+        <ul class="nav-links">
+          <li><a href="#about" class="active" onclick="showSection('about')">About</a></li>
+          <li><a href="#resume" onclick="showSection('resume')">Resume</a></li>
+          <li><a href="#portfolio" onclick="showSection('portfolio')">Portfolio</a></li>
+          <li><a href="#contact" onclick="showSection('contact')">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- About Section -->
+      <section id="about" class="active">
+        <h2>About Me</h2>
+        <p>Hello! I'm Deepika, a passionate Computer Science student from MVSR College. I am eager to immerse myself in a dynamic engineering environment, where I can apply my problem-solving abilities and contribute to impactful projects. Committed to continuous learning and growth in the fields of engineering, I'm looking for hands-on experience and opportunities to collaborate on meaningful projects.</p>
+
+          <h3>Achievements</h3>
+        <ul class="achievements">
+          <li>
+              <img src="images/aws.jpeg" alt="AWS Certificate" class="certificate">
+              <a href="images/aws.jpeg" target="_blank">
+              <span class="achievement-link">AWS Certificate</span>
+            </a>
+          </li>
+          <li>
+             <a href="images/aiml.jpeg" target="_blank">
+              <img src="images/aiml.jpeg" alt="AI ML Internship" class="certificate">
+              <span class="achievement-link">AI ML Internship (Virtual)</span>
+            </a>
+          </li>
+          <li>
+            <a href="images/verzeo.jpeg" target="_blank">
+              <img src="images/verzeo.jpeg" alt="Verzeo Intern" class="certificate">
+              <span class="achievement-link">Verzeo Intern</span>
+            </a>
+          </li>
+          <li>
+            <a href="images/naukri campus.jpeg" target="_blank">
+              <img src="images/naukri campus.jpeg" alt="naukri campus" class="certificate">
+              <span class="achievement-link">Naukri Campus</span>
+            </a>
+          </li>
+
+        </ul>
+
+      </section>
+
+      <!-- Resume Section -->
+      <section id="resume">
+        <h2>Resume</h2>
+        <h3>Education</h3>
+        <p>BTech in Computer Science Engineering, MVSR College (2021 - 2025)</p>
+        <ul>
+          <li>Cgpa:9.01</li>
+        </ul>
+        <p>Board of Intermediate in Narayana Junior College (2019 - 2021)</p>
+        <ul>
+          <li>MPC</li>
+          <li>Percentage:95%</li>
+        </ul>
+        <p>SSC in Bhashyam High School (2018 - 2019)</p>
+        <ul>
+          <li>10th Class</li>
+          <li>Cgpa:10</li>
+        </ul>
+
+        <h3>Skills</h3>
+        <ul>
+          <li>Programming Languages:Python, C++, C, Java</li>
+          <li>Wed Design:HTML, CSS, Js</li>
+          <li>Database: SQL</li>
+        </ul>
+
+        <h3>Qualities</h3>
+        <ul>
+          <li>Strong problem-solving abilities</li>
+          <li>Adaptable and quick learner</li>
+          <li>Effective team collaboration</li>
+          <li>Commitment to continuous learning</li>
+        </ul>
+
+      </section>
+
+     <!-- Portfolio Section -->
+<section id="portfolio">
+  <h2>Portfolio</h2>
+
+  <div class="project">
+    <h3>AICTE Cyber Security Virtual Internship</h3>
+    <a href="images/cyber.png" target="_blank">
+      <img src="images/cyber.png" alt="CYBER Certificate" class="certificate">
+    </a>
+  </div>
+
+  <div class="project">
+    <h3>Python Certificate by Spoken Tutorial</h3>
+    <a href="images/python certificate.jpg" target="_blank">
+      <img src="images/python certificate.jpg" alt="Python Certificate" class="certificate">
+    </a>
+  </div>
+
+  <div class="project">
+    <h3>SQL Certificate by Oracle Academy</h3>
+    <a href="images/Dbsql.jpg" target="_blank">
+      <img src="images/Dbsql.jpg" alt="Database SQL Certificate" class="certificate">
+    </a>
+  </div>
+
+  <div class="project">
+    <h3>JAVA Certificates by Oracle Academy</h3>
+    <a href="images/java.jpg" target="_blank">
+      <img src="images/java.jpg" alt="Java Certificate" class="certificate">
+    </a>
+    <a href="images/java funda.jpg" target="_blank">
+      <img src="images/java funda.jpg" alt="Java fundamental Certificate" class="certificate">
+    </a>
+  </div>
+
+  <div class="project">
+    <h3>Verzeo Internship</h3>
+    <a href="images/verzeo.jpeg" target="_blank">
+      <img src="images/verzeo.jpeg" alt="Verzeo Certificate" class="certificate">
+    </a>
+  </div>
+
+  <div class="project">
+    <h3>Naukri Campus Young Turks Certificate</h3>
+    <a href="images/naukri campus.jpeg" target="_blank">
+      <img src="images/naukri campus.jpeg" alt="Naukri Campus Certificate" class="certificate">
+    </a>
+  </div>
+</section>
+
+
+
+
+      <!-- Contact Section -->
+      <section id="contact">
+        <h2>Contact</h2>
+        <form id="contactForm">
+          <input type="text" placeholder="Your Name" required><br><br>
+          <input type="email" placeholder="Your Email" required><br><br>
+          <textarea placeholder="Your Message" required></textarea><br><br>
+          <button type="submit">Send Message</button>
+        </form>
+      </section>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
